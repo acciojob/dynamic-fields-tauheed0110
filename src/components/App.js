@@ -13,7 +13,7 @@ const App = () => {
   }
   const handleSubmit = (e)=>{
     e.preventDefault();
-    console.log({...values});
+    console.log({values});
   }
   function handleNameChange(index, event){
     const newInputFields = [...values];
