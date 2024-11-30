@@ -13,7 +13,7 @@ const App = () => {
   }
   const handleSubmit = (e)=>{
     e.preventDefault();
-    console.log(values);
+    console.log({...values});
   }
   function handleNameChange(index, event){
     const newInputFields = [...values];
@@ -40,7 +40,7 @@ const App = () => {
                 </div>
                 })
               }
-              <button onClick={(e)=> handleAddMore(e)}>Add more..</button>
+              <button onClick={(e)=> handleAddMore(e)}>Add More..</button>
               <button onClick={(e) => handleSubmit(e)}>Submit</button>
         </form>
     </div>
