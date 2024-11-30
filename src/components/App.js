@@ -40,7 +40,7 @@ const App = () => {
                 </div>
                 })
               }
-              <button onClick={(e)=> handleAddMore(e)}>Add more</button>
+              <button onClick={(e)=> handleAddMore(e)}>Add more..</button>
               <button onClick={(e) => handleSubmit(e)}>Submit</button>
         </form>
     </div>
